@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import AddNote from "../petre_marius_florin/AddNote";
-import NoteList from "../petre_marius_florin/NoteList";
+import AddNote from "./AddNote";
+import NoteList from "./NoteList";
 
 const initialNote = {
   title: "First Note",
@@ -9,10 +9,9 @@ const initialNote = {
 
 function MentorNotes() {
   const [notes, setNotes] = useState([initialNote]);
-  console.log(notes);
+
   const handleAddNote = (newNote) => {
-    // setNotes([...notes, newNote]);
-    setNotes((prev) => [...prev, newNote]);
+    setNotes([...notes, newNote]);
   };
 
   return (
