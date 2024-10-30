@@ -1,11 +1,7 @@
 import React from "react";
 import AddNote from "./AddNote";
 import NoteCard from "../../components/NoteCard";
-
-// const initialNote = {
-//   title: "First Note",
-//   content: "This is my first note",
-// };
+import "./AddNotes.css";
 
 function GabrielDumitruNotes() {
   const [notes, setNotes] = React.useState([{ title: "", content: "" }]);
@@ -23,7 +19,6 @@ function GabrielDumitruNotes() {
             <NoteCard key={index} title={note.title} content={note.content} />
           )
       )}
-      {/* <NoteCard title={initialNote.title} content={initialNote.content} /> */}
     </div>
   );
 }

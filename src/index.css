@@ -1,39 +1,24 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f4f4f9;
+  padding: 0;
   display: flex;
   justify-content: center;
-  height: 100%;
-  padding: 20px;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
 }
 
 .App {
   width: 500px;
   text-align: center;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-  color: #333;
 }
 
 .note {
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  margin-bottom: 10px;
   text-align: left;
-}
-
-.note:hover {
-  transform: scale(1.02);
 }
 
 .add-note-form {
@@ -43,34 +28,29 @@ h1 {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
 }
 
 .submit-button {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 10px 15px;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
-  cursor: pointer;
 }
 
-.submit-button:hover {
-  background-color: #0056b3;
-}
-
-.title-input,
-.content-input {
-  padding: 10px;
-  margin: 10px 0;
+.title-input {
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
   font-size: 16px;
-  max-width: 100%;
-  width: 100%;
-  resize: vertical;
-  box-sizing: border-box;
+  outline: none;
+}
+
+.content-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
 }
