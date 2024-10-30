@@ -1,3 +1,106 @@
 .App {
   text-align: center;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.add-note {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-note h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title-input,
+.content-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.title-input:focus,
+.content-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.2);
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.notes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.note {
+  background-color: #e9f1ff;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.note:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.note h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.note p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
