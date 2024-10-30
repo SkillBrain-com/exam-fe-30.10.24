@@ -1,5 +1,5 @@
 import React from "react";
-import MentorNotes from "./pages/mentor/mentor-notes";
+import MentorNotes from "./pages/mentor/AddNotes";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 

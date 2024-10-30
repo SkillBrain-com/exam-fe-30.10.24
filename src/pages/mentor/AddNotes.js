@@ -1,5 +1,5 @@
 import React from "react";
-import AddNote from "../../components/AddNoteTemplate";
+import AddNote from "./AddNote";
 import NoteCard from "../../components/NoteCard";
 
 const initialNote = {
