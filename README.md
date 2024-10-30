@@ -38,7 +38,7 @@ Creează o aplicație simplă de notițe folosind componentele `AddNoteTemplate`
    - **Notă:** Folosește codul din `AddNoteTemplate` ca punct de pornire, dar **nu modifica codul din** `AddNoteTemplate`.
    - Importa componenta `NoteCard` **nu modifica codul din ea**
 
-3. **Crearea componentei `AddNote`:**
+3. **Crearea componentei `AddNotes`:**
    - Creează o componentă nouă `AddNote`.
    - Implementează logica pentru adăugarea unei notițe (practic aceasta va include componentele de `AddNote` - adaugare si `NoteCard` - afisare nitita).
    - La apăsarea butonului de adăugare, o nouă notiță trebuie să fie adăugată și afișată în listă ca un card.
