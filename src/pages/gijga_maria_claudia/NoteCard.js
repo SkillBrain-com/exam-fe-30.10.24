@@ -1,4 +1,5 @@
 import React from "react";
+import "./NoteCard.css";
 
 function NoteCard({ title, content }) {
   return (
