@@ -1,0 +1,16 @@
+.title-input {
+  background-color: #e5f1f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.content-input {
+  background-color: #e5f1f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-button:hover{
+  background-color:  #6a00ff;
+}
